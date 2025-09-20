@@ -32,6 +32,6 @@ class TextToSpeech:
 if __name__ == '__main__':
     tts = TextToSpeech('HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_ZIRA_11.0', 200, 1.0)
     #tts.list_available_voices()
-    tts.text_to_speech('Hi Siddhu, I just wanted to tell you how much you mean to me. You make my days brighter and my heart so much happier. I feel so lucky to have you in my life, and I love you endlessly.')
+    tts.text_to_speech('Hey mom, I just wanted to tell you how much you mean to me. You make my days brighter and my heart so much happier. I feel so lucky to have you in my life, and I love you endlessly.')
     
             
